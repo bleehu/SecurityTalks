@@ -1,0 +1,42 @@
+The Goal
+	Get from networks that are hostile, monitored, or censored into a network that you control. Hence comand and control.
+
+The philosophy of attack
+	Hack in the shadow of the developer. Follow their traffic. This makes you harder to detect which both enriches what you find and gives better odds at persistance.
+
+It's not really a red guy vs a blue guy
+	It's more like a red elephant vs 8 blind blue guys. 
+	Where each blind blue guy is a different sensor, security appliance, etc. 
+	One blind guy feels the trunk and says "I think this is a snake" 
+	Where the next blind guy feels the fuzz on the end of the tail and says "I think it's a lion."
+	
+The problem for the blue team is that if they make a move, they may telegraph to the red team how they know they're there.
+
+The red team hopes that if they just sit tight, the blue team will just go away. But the red team must move in order to get the intelligence they need. 
+	But the first move can end the engagement if it's noticed. There are 3 outcomes:
+	-	negative and fatal
+		It's over. They caught you.
+	- negative and ok
+		just pivot to the next attack in the chain
+	- positive and ok
+		The blue blind guys have accepted you as one of their own. 
+		
+Positive and Ok can happen from a couple of scenarios
+	- You've made it onto the whitelist
+	- You're not on the blacklist and blue team has their head up their ass too far to add you to it.
+
+Red team needs to go custom or go home. 
+	Mimic what your target is actually doing. This is why/how you stay in the shadow of the developer. 
+
+What are webhooks?
+	A webhook in web development is a method of augmenting or altering the behavior of a web page, or web application, with custom callbacks. These callbacks may be maintained, modified, and managed by third-party users and developers who may not necessarily be affiliated with the originating website or application. The term "webhook" was coined by Jeff Lindsay in 2007 from the computer programming term
+	https://en.wikipedia.org/wiki/Webhook
+	Webhooks are found in common tools like github, Heroku, and slack. Tools that developers want to use; they are driving adoption. If Blue team blocks them, the developers will advocate for your persistance!
+Pick a C2 broker
+	It should be in the enviroment already
+	Needs to be public, so you can get to it
+	Github! or Slack!
+
+Downsides
+	Leaves an easy audit trail
+	
