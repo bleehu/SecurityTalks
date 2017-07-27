@@ -1,0 +1,14 @@
+		Title Slide
+
+		
+		Slide 1
+Risk: "Risk is the Probable Frequency and magnitude of future loss"
+Risk Management: ""
+Asset: Something of value
+Threat: 
+Threat Event:
+2ndary Loss Event:
+
+Compliance is necissary, not sufficient.
+	Government opperates on about a four year cycle. Metasploit modules work on about a two week cycle. Do the math. 
+
