@@ -12,3 +12,54 @@ Threat Event:
 Compliance is necissary, not sufficient.
 	Government opperates on about a four year cycle. Metasploit modules work on about a two week cycle. Do the math. 
 
+1. Decide on a scope
+	If you're being audited, passing the audit is your scope.
+	It's always better to start small and grow.
+	If customers are asking for your protection, that's your scope.
+
+2. Inventory Assets and Owners
+	If it doesn't have an owner, assign one.
+	If nobody wants it, save that for step 6 when you discuss it with senior leadership
+	
+3. Sort the inventory by granularity.
+	This is required so that the assesment scales up and scales down. 
+	Several other methods of sorting are suggested, but granularity works best. 
+		Presumed impact for instance is inaccurate, and with secondary events the sorting gets recursive and confusing
+	Start with categories
+		- Tangible Assets
+		- People
+		- Intangible Assets
+	Then Groups
+	Then Subgroups
+	then individual components
+		- This one MongoDB that we have for some reason
+		- Ted Anderson, our DevOps guy
+		- Our Company's reputation for being secure
+
+4. Binary Risk Assesment
+	Use this handy-dandy handout in the repo
+	Quick for each scenario for each asset
+	You only need probable scenarios. Leave the ninja turtles out of this
+
+5. Asset Owners Decide What to Do With Med & Low Risk
+	You cannot force them to fix issues. Sometimes fixing medium or low risks isn't even the right thing to do for the business. That's ok.
+	Let the owners make their own choices. Otherwise you'll be burried trying to manage everything
+	Document each decision. Make them sign something for when we get audited. It's not ok for security to take responsiblity for things they can't fix.
+
+Ways to treat Risk
+	Avoid the risks
+	Mitigate the risks
+	Transfer the risk legally to a third party. Maybe someone runs a service to handle this?
+	Accept the risk. Maybe this falls into an appropriate level of risk appetite?
+	
+	There will always be a level of risk that a company is willing to take. Draw a tentative line ahead of time and keep it flexible. It will definitely change as we're doing this.
+
+6. Senior Leadership Reviews all risk & decides on high risks
+	- Must be done in a useful sized batch. Not too few, not too many
+	- let senior leadership make their decisions. Security can't force these. 
+	- Identify serious problems and use leadership skills to persuade stakeholders to treat the risks
+	- Risk aggregation is complicated. Don't go there unless you have experience
+	
+7. Document all the things!
+	Prevent the buildup of tribal knowledge
+	prepare to drown the auditors. Everyone will love that. 
