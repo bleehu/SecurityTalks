@@ -4,10 +4,10 @@
 		Slide 1
 Risk: "Risk is the Probable Frequency and magnitude of future loss"
 Risk Management: ""
-Asset: Something of value
+Asset: "Something of value"
 Threat: 
 Threat Event:
-2ndary Loss Event:
+2ndary Loss Event: "When one loss event leads to another. I.E. financial damage from loss of reputation."
 
 Compliance is necissary, not sufficient.
 	Government opperates on about a four year cycle. Metasploit modules work on about a two week cycle. Do the math. 
@@ -63,3 +63,22 @@ Ways to treat Risk
 7. Document all the things!
 	Prevent the buildup of tribal knowledge
 	prepare to drown the auditors. Everyone will love that. 
+
+Where Possible, use the Binary Risk Assesment. 
+	It is very fast and easy
+	It usually gets you what you need in a non-burdensome way
+But there are some drawbacks
+	It doesn't actually fullfill that definition of risk
+	It assumes a bad actor; doesn't capture self-hacks well or natural events
+	Doesn't account well for 2ndary risk
+	Very tech-oriented. Doesn't measure the human factor well
+So when appropriate, use the FAIR method
+	Factor Analysis of Information Risk
+	Best technique period. Fight Rachel on it if you want. 
+	Quantitative result. Tells you how likely in days, hours, and how much in dolla dolla bills.
+	Takes less than 2 hours. 
+	Does take a tiny bit of training
+Get the best of both worlds
+	use binary where you can
+	then drop FAIR in when you need more info
+This framework for discussion prevents talking in circles or just sweeping it under the rug
